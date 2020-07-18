@@ -1,12 +1,12 @@
 from flask import Flask, escape, request
 
-from src.connection import database
-from src.connection.database import Database
+from src.auth import auth_controller
+from src.quiz import quiz_controller
 
-app = Flask(__name__, template_folder='connection')
-db = Database()
-app.register_blueprint(db.route1, url_prefix="/route1")
-app.register_blueprint(database.route2, url_prefix="/route2")
+app = Flask(__name__, template_folder='src')
+app.register_blueprint(quiz_controller.quizController, url_prefix="/quiz")
+app.register_blueprint(auth_controller.authController, url_prefix="/auth")
+# database
 
 
 @app.route('/')
