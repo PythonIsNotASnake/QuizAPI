@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbd971ce-6d8d-4a10-829c-4945d083942d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/auth/auth_controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/quiz/quiz_controller.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auth/auth.controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/auth/auth_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auth/auth.service.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/auth/crypto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/connection/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/connection/database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/quiz/quiz.controller.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/quiz/quiz.service.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/quiz/quiz_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/auth/auth_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/auth/auth_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/auth/auth_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/auth/auth_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/quiz/quiz_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/quiz/quiz_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/quiz/quiz_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/quiz/quiz_service.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,30 +103,35 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595062816371" />
-    <state width="1082" height="257" key="GridCell.Tab.0.bottom" timestamp="1595087726562">
+    <state width="1082" height="213" key="GridCell.Tab.0.bottom" timestamp="1595167750906">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1082" height="257" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595087726562" />
-    <state width="1082" height="257" key="GridCell.Tab.0.center" timestamp="1595087726562">
+    <state width="1082" height="213" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595167750906" />
+    <state width="1082" height="213" key="GridCell.Tab.0.center" timestamp="1595167750906">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1082" height="257" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595087726562" />
-    <state width="1082" height="257" key="GridCell.Tab.0.left" timestamp="1595087726562">
+    <state width="1082" height="213" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595167750906" />
+    <state width="1082" height="213" key="GridCell.Tab.0.left" timestamp="1595167750906">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1082" height="257" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595087726562" />
-    <state width="1082" height="257" key="GridCell.Tab.0.right" timestamp="1595087726562">
+    <state width="1082" height="213" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595167750906" />
+    <state width="1082" height="213" key="GridCell.Tab.0.right" timestamp="1595167750906">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1082" height="257" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595087726562" />
+    <state width="1082" height="213" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595167750906" />
     <state x="461" y="163" key="SettingsEditor" timestamp="1595080749522">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="163" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595080749522" />
-    <state x="758" y="359" key="com.intellij.ide.util.TipDialog" timestamp="1595076426066">
+    <state x="758" y="359" key="com.intellij.ide.util.TipDialog" timestamp="1595162730010">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="758" y="359" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595076426066" />
+    <state x="758" y="359" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595162730010" />
     <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595081234068">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

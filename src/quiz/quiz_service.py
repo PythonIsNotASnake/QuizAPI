@@ -8,15 +8,32 @@ def get_question(amount):
         "SELECT id, question, rightAnswer, falseAnswer1, falseAnswer2 FROM questions")
     questions = []
     for question in database.cur:
-        #json_string = {'id': id, 'question': question}
-        #obj = json.dumps(json_string)
         questions.append(question)
-    random_numbers = []
     i = 0
-    while i < amount:
-        random = randrange(questions.len())
-        # Solange bis random keiner Zahl in random_numbers entspricht neu würfeln
-        i += 1
-    for i in questions:
-        print(i)
-    return questions
+    randoms = []
+    if int(amount) < len(questions):
+        while i < int(amount):
+            reach_end = False
+            while not reach_end:
+                zufall = randrange(len(questions))
+                j = 0
+                if len(randoms) == 0:
+                    randoms.append(zufall)
+                    i += 1
+                    break
+                while j < len(randoms):
+                    if randoms[j] == zufall:
+                        reach_end = True
+                        break
+                    if j == len(randoms) - 1:
+                        randoms.append(zufall)
+                        i += 1
+                        reach_end = True
+                        break
+                    j += 1
+    random_questions = []
+    q = 0
+    while q < len(randoms):
+        random_questions.append(questions[randoms[q]])
+        q += 1
+    return random_questions

@@ -7,4 +7,5 @@ quizController = Blueprint('quizController', __name__, template_folder='src')
 @quizController.route('/<amount>', methods=['GET'])
 def get_questions(amount):
     # return f'Hello, {escape(obj[0])}!'
-    return jsonify(amount)
+    questions = quiz_service.get_question(amount)
+    return jsonify(questions)

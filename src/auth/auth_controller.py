@@ -10,10 +10,11 @@ def post_account():
     data = request.get_json()
     nick_name = data['nickName']
     password = data['password']
-    auth_service.register_user(nick_name, password)
+    registered = auth_service.register_user(nick_name, password)
+    return jsonify(registered)
 
 
-@authController.route('/login', methods=['POST'])
+@authController.route('/login', methods=['PUT'])
 def post_login():
     data = request.get_json()
     nick_name = data['nickName']
@@ -22,7 +23,7 @@ def post_login():
     return jsonify(logged_in)
 
 
-@authController.route('/score', methods=['GET'])
+@authController.route('/score', methods=['PUT'])
 def get_score():
     data = request.get_json()
     nick_name = data['nickName']
@@ -39,3 +40,12 @@ def update_score():
     points = data['points']
     highscore = auth_service.update_score(nick_name, password, points)
     return jsonify(highscore)
+
+
+@authController.route('/leaderboard', methods=['PUT'])
+def get_leader_board():
+    data = request.get_json()
+    nick_name = data['nickName']
+    password = data['password']
+    leader_board = auth_service.get_leader_board(nick_name, password)
+    return jsonify(leader_board)
