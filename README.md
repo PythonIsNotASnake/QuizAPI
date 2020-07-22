@@ -1,2 +1,3 @@
 # QuizAPI
- ![Alt-Text](Screenshot.png)
+![alt-text](Screenshot.png "Screenshot")
+![alt text](https://raw.githubusercontent.com/PythonIsNotASnake/QuizAPI/master/Screenshot.png)
