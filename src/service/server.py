@@ -1,4 +1,4 @@
-from flask import Flask, escape, request
+from flask import Flask, escape, request, jsonify
 
 from src.auth import auth_controller
 from src.quiz import quiz_controller
@@ -9,10 +9,11 @@ app.register_blueprint(auth_controller.authController, url_prefix="/auth")
 # database
 
 
-@app.route('/')
+@app.route('/', methods=['GET'])
 def hello():
     name = request.args.get("name", "World")
-    return f'Hello, {escape(name)}!'
+    #return f'Hello, {escape(name)}!'
+    return jsonify(hello=name)
 
 
 if __name__ == '__main__':

@@ -1,3 +1,5 @@
+import json
+
 from src.auth import crypto
 from src.connection import database
 
@@ -71,7 +73,10 @@ def get_leader_board(nick_name, pass_word):
         )
         users = []
         for user in database.cur:
-            users.append(user)
+            x = '{ "nickName":"' + user[0] + '", "score":"' + str(user[1]) + '" }'
+            y = json.loads(x)
+            users.append(y)
+            print(y)
         leader_board_size = 10
         if len(users) < 10:
             leader_board_size = len(users)

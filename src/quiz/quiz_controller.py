@@ -8,4 +8,4 @@ quizController = Blueprint('quizController', __name__, template_folder='src')
 def get_questions(amount):
     # return f'Hello, {escape(obj[0])}!'
     questions = quiz_service.get_question(amount)
-    return jsonify(questions)
+    return jsonify(questions=questions)

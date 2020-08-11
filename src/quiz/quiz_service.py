@@ -1,4 +1,7 @@
+import json
 from random import randrange
+
+from flask import jsonify
 
 from src.connection import database
 
@@ -34,6 +37,12 @@ def get_question(amount):
     random_questions = []
     q = 0
     while q < len(randoms):
-        random_questions.append(questions[randoms[q]])
+        x = '{ "id":"' + str(questions[randoms[q]][0]) + '", "question":"' + questions[randoms[q]][
+            1] + '", "rightAnswer":"' + questions[randoms[q]][2] + '", "falseAnswer1":"' + questions[randoms[q]][
+                2] + '", "falseAnswer2":"' + questions[randoms[q]][3] + '" }'
+        y = json.loads(x)
+        print(y)
+        # random_questions.append(questions[randoms[q]])
+        random_questions.append(y)
         q += 1
     return random_questions
