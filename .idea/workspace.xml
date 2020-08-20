@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbd971ce-6d8d-4a10-829c-4945d083942d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auth/auth_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/auth/auth_controller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auth/auth_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/auth/auth_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/quiz/quiz_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/quiz/quiz_controller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/quiz/quiz_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/quiz/quiz_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/server.py" afterDir="false" />
-    </list>
+    <list default="true" id="bbd971ce-6d8d-4a10-829c-4945d083942d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

@@ -1,6 +1,6 @@
 import json
 
-from auth import crypto
+import crypto
 import database
 
 

@@ -1,5 +1,5 @@
 from flask import Blueprint, escape, jsonify, request
-from quiz import quiz_service
+import quiz_service
 
 quizController = Blueprint('quizController', __name__, template_folder='src')
 

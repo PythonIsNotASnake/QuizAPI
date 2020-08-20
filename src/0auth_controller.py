@@ -1,6 +1,6 @@
 from flask import Blueprint, escape, request, jsonify
 
-from auth import auth_service
+import auth_service
 
 authController = Blueprint('authController', __name__, template_folder='src')
 
